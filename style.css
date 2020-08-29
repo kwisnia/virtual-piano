@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Fredoka One", cursive;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to right, #005AA7, #FFFDE4);
+}
+.container {
+  display: flex;
+  width: max-content;
+  margin: 45vh 32vw;
+}
+.white-keys {
+  position: relative;
+  top: 140px;
+  left: 30px;
+}
+.white-keys kbd {
+  border: 5px solid gray;
+  padding: 200px 30px;
+  padding-bottom: 30px;
+  padding-top: 340px;
+  background-color: white;
+  width: 1000px;
+  height: 1000px;
+}
+.black-keys {
+  position: relative;
+  top: -125px;
+  left: -565px;
+}
+.black-keys kbd {
+  position: relative;
+  background-color: black;
+  color: white;
+  padding: 80px 15px;
+  border: none;
+  margin: 0 35px;
+  width: 30px;
+}
+
+#E-key {
+  margin-right: 80px;
+}
+#W-key {
+  position: relative;
+  left: 25px;
+}
+#Y-key {
+  margin-left: 10px;
+  margin-right: 5px;
+}
